@@ -1,12 +1,3 @@
-#### 对蓝牙感兴趣可以加群讨论学习(QQ：494309361)
-### 有个人项目或者定制化需求的可加QQ:823581722 进行联系
-### Email：jerryee0911@qq.com
-
-### 扫描下载APK:
-![二维码.png](https://www.pgyer.com/app/qrcode/Dr8d)
-
-#### 一、先来看张BleLib库的api之间的关系图：
-![BleLib库结构图.png](http://upload-images.jianshu.io/upload_images/3884117-2c5a0b95cda75158.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
 ### 1、BleDevice
 ```
@@ -433,16 +424,8 @@ OtaManager mOtaManager = new OtaManager(BleActivity.this);
 boolean result = mOtaManager.startOtaUpdate(file, (BleDevice) mBle.getConnetedDevices().get(0), mBle);
 Log.e("OTA升级结果:", result + "");
 ```
-### 四、Demo效果演示图：
 
-![Demo预览图.gif](https://upload-images.jianshu.io/upload_images/3884117-b367c285fc7430e3.gif?imageMogr2/auto-orient/strip)
 
-### 五、如果你觉得不错，对你有过帮助，请给我一点打赏鼓励，支持我维护的动力：
-![](https://upload-images.jianshu.io/upload_images/3884117-5d22ae84180a93ed.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
-![](https://upload-images.jianshu.io/upload_images/3884117-1f6c1c0fb5885252.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
-```
-注：打赏后可留言/联系本人，提供您的需求以及建议，本人会进行定期的更新优化库的体验，多谢支持!
-```
 
 
 
